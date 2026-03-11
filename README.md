@@ -12,6 +12,8 @@ El 50% de mi tiempo lo dedico a investigar y prototipar tecnologías emergentes.
 
 Trabajo con IA como herramienta activa de desarrollo — no para reemplazar el criterio técnico, sino para amplificarlo. Diseño flujos donde la IA ejecuta y yo dirijo: desde prototipado con V0, hasta agentes que interactúan con ERPs en producción.
 
+La seguridad y la privacidad de los datos no son un paso final — son parte del diseño desde el inicio. Cada sistema que construyo incluye auditoría, hardening y documentación de decisiones de seguridad.
+
 ---
 
 ## Proyectos con impacto
@@ -50,7 +52,7 @@ Sistema experimental de orquestación de agentes con roles especializados basado
 **Frontend** · TypeScript · Next.js · Shadcn/UI  
 **DevOps** · Docker · Nginx · DigitalOcean · GitHub Actions  
 **AI/LLM** · MCP Protocol · Claude · Odoo LLM modules · Multi-agent orchestration · V0  
-**Seguridad** · Zero Trust · Cloudflare · Azure AD · OAuth2  
+**Seguridad** · Zero Trust · Cloudflare · Azure AD · OAuth2 · RFC9457  
 **ERP** · Odoo (módulos e integraciones)
 
 ---
