@@ -26,7 +26,7 @@ Sistema completo de bolsa de empleo institucional construido de cero:
 - **Frontend** — Next.js App Router + Shadcn/UI, prototipado con V0
 - **Backend** — Plugin WordPress en PHP con GraphQL como API tipada (mutations para ofertas, postulación, empresas y perfiles)
 - **API** — FastAPI + PostgreSQL con Alembic, migración progresiva desde Next.js
-- **Auth** — Azure AD / O365 + JWT + QR Login + Zero Trust con Cloudflare
+- **Auth** — Azure AD / O365 + JWT + QR Login
 - **DevOps** — Docker multi-stage, Nginx, auto-deploy con GitHub, blue-green deployment en DigitalOcean
 - **Seguridad** — Auditoría GraphQL documentada, RFC9457, hardening de producción
 
@@ -52,7 +52,7 @@ Sistema experimental de orquestación de agentes con roles especializados basado
 **Frontend** · TypeScript · Next.js · Shadcn/UI  
 **DevOps** · Docker · Nginx · DigitalOcean · GitHub Actions  
 **AI/LLM** · MCP Protocol · Claude · Odoo LLM modules · Multi-agent orchestration · V0  
-**Seguridad** · Zero Trust · Cloudflare · Azure AD · OAuth2 · RFC9457  
+**Seguridad** · Azure AD · OAuth2 · RFC9457 · hardening de producción  
 **ERP** · Odoo (módulos e integraciones)
 
 ---
