@@ -10,6 +10,8 @@ No soy experto en un framework. Soy la persona que identifica qué tecnología n
 
 El 50% de mi tiempo lo dedico a investigar y prototipar tecnologías emergentes. El otro 50% a construir sistemas que funcionen en producción con usuarios reales.
 
+Trabajo con IA como herramienta activa de desarrollo — no para reemplazar el criterio técnico, sino para amplificarlo. Diseño flujos donde la IA ejecuta y yo dirijo: desde prototipado con V0, hasta agentes que interactúan con ERPs en producción.
+
 ---
 
 ## Proyectos con impacto
@@ -47,9 +49,16 @@ Sistema experimental de orquestación de agentes con roles especializados basado
 **Backend** · Python · FastAPI · PHP · PostgreSQL · Alembic · JWT  
 **Frontend** · TypeScript · Next.js · Shadcn/UI  
 **DevOps** · Docker · Nginx · DigitalOcean · GitHub Actions  
-**AI/LLM** · MCP Protocol · Odoo LLM modules · Multi-agent orchestration  
+**AI/LLM** · MCP Protocol · Claude · Odoo LLM modules · Multi-agent orchestration · V0  
 **Seguridad** · Zero Trust · Cloudflare · Azure AD · OAuth2  
 **ERP** · Odoo (módulos e integraciones)
+
+---
+
+## Formación
+
+Diplomado en Informática — Universidad Estatal a Distancia (UNED) · En curso desde 2018  
+Cursos aprobados: Programación Avanzada · Sistemas Operativos · Estructura de Datos · Introducción a la Programación · Lógica para Computación
 
 ---
 
