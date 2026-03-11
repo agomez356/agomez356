@@ -39,6 +39,11 @@ Servidores MCP propios en Python (`llm`, `llm_mcp_server`, `llm_tool`) para cone
 
 API REST institucional con integración Azure AD, Docker, CI/CD con GitHub Actions, monitoreo y documentación RFC9457.
 
+### Odoo para gestión agrícola
+*Proyecto independiente*
+
+Implementé y customicé Odoo para la administración operativa de una finca familiar. Primer proyecto con cliente real fuera del entorno institucional.
+
 ### Chorus — Orquestación Multi-Agente
 *Investigación*
 
