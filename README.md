@@ -78,7 +78,7 @@ Implementé y customicé Odoo para la administración operativa de una finca fam
 
 ### apexive/odoo-llm — PR mergeado · Mayo 2026
 
-Porté los módulos `llm`, `llm_tool` y `llm_mcp_server` a **Odoo 19.0 Community**. El código venía de un fork interno corriendo en producción; este PR lo subió al repo oficial.
+Fork de `apexive/odoo-llm` portado a Odoo 19.0 y corriendo en producción propia antes de contribuirlo upstream. El PR fue la consecuencia de que el port funcionó — no al revés.
 
 - Adoptó la nueva API de grupos de Odoo 19 (`res.groups.privilege` + `privilege_id`)
 - 578 adiciones · 1,842 eliminaciones · 30 archivos modificados
