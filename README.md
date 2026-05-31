@@ -78,7 +78,8 @@ Port de `apexive/odoo-llm` a Odoo 19.0: desarrollado localmente, validado en pro
 - 578 adiciones · 1,842 eliminaciones · 30 archivos modificados
 - Revisado y mergeado por el equipo de Apexive
 
-🔗 [github.com/apexive/odoo-llm/pull/252](https://github.com/apexive/odoo-llm/pull/252)
+🔗 [github.com/apexive/odoo-llm/pull/252](https://github.com/apexive/odoo-llm/pull/252)  
+🛠 [Entorno de desarrollo local usado para validar el port](https://github.com/agomez356/odoo-19-dev-env)
 
 ---
 
