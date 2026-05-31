@@ -44,10 +44,21 @@ API REST enterprise que bridgea el ERP legacy (SQL Server/Softland) con PostgreS
 
 Auditoría completa + hardening sobre sitio WordPress institucional en Docker/DigitalOcean. 37 controles evaluados bajo ISO 27001, OWASP Top 10, CIS Docker Benchmark y leyes costarricenses (Ley 8787, Ley 8968, Decreto 45061-MICITT). **Docker/Infraestructura: 100% compliance**. Scripts propios para forensics automatizado con cadena de custodia legal.
 
-### devworkflow-studio
-*Investigación · TypeScript · Open source*
+### CI/CD Pipeline — Multi-repo
+*GitHub Actions · SSH · Docker · 6 repos*
 
-Demo educativo: 3 MCP servers reales (code quality, git workflow, doc generator) + 4 recetas Goose (Block) + AGENTS.md de 900+ líneas. Monorepo con npm workspaces, Docker, Vitest. ~7,000 líneas de código.
+Pipeline centralizado con reusable workflow: toda la lógica de deploy vive en un solo archivo; cada repo lo referencia con un `uses:` mínimo. Soporta 5 tipos de repo con quality gates específicos.
+
+| Tipo | Quality gate | Deploy |
+|------|-------------|--------|
+| `php-plugin / theme / mu` | PHP lint | `git reset` + `composer install` |
+| `nextjs` | `pnpm build` | `docker compose build + up` |
+| `docker-stack` | `docker compose config` | `docker compose up --remove-orphans` |
+
+- **Git model**: `feature → staging (test) → main (prod)` — staging acumula commits de entorno que nunca deben llegar a producción, por eso el feature branch va directo a main
+- **SSH hardening**: host key pinning sin `StrictHostKeyChecking=no`, usuario de deploy dedicado, puerto SSH no estándar en staging
+- **Healthcheck**: workflow cada 5 minutos con alertas a Telegram — detecta DOWN y RECOVERY con state tracking via GitHub Variables
+- **Rollback documentado**: objetivo < 2 minutos para cualquier tipo de repo
 
 ### Chat AI para WordPress
 *Investigación · PHP*
