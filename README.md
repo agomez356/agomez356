@@ -65,11 +65,6 @@ Pipeline centralizado con reusable workflow: toda la lógica de deploy vive en u
 
 Plugin WordPress con integración completa a OpenAI Agents API. Model routing inteligente (GPT-5-Nano/Mini/Full según complejidad del mensaje), WebSocket proxy con ReactPHP + Ratchet para OpenAI Realtime API, almacenamiento híbrido DB + transient cache.
 
-### Chorus — Orquestación Multi-Agente
-*Investigación*
-
-Sistema de orquestación en Claude Code con metáfora musical: conductor + ensemble de agentes especializados, casting dinámico por spec, memoria evolutiva entre runs, evaluación multidimensional en 6 dimensiones.
-
 ### Miweb — Portfolio / Blog
 *[agomez356.github.io/Miweb](https://agomez356.github.io/Miweb)*
 
