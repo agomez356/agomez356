@@ -35,7 +35,7 @@ Sistema completo de bolsa de empleo institucional construido de cero. Arquitectu
 Servidor MCP standalone (`cpic-mcp-server`) que conecta LLMs con Odoo 19 Enterprise via JSON-RPC: 6 tools para auth, proyectos, tareas y `ai_execute_agent` — permite que Claude invoque los AI agents nativos de Odoo 19. Compatible con Claude Desktop, Claude Code y Codex.
 
 ### FastAPI CPIC — API institucional
-*En producción · mcp.cpic.or.cr*
+*En producción*
 
 API REST enterprise que bridgea el ERP legacy (SQL Server/Softland) con PostgreSQL moderno y Odoo 19. Integración Azure AD, dual database con circuit breakers, RFC 9457, Sentry APM, multi-agent AI development system.
 
@@ -95,7 +95,7 @@ MCP server: definir tools → implementar transport → Claude Desktop los descu
 
 ## Stack
 
-**Backend** · Python · FastAPI · Django · PHP 8 · PostgreSQL · Alembic · SQL Server · JWT  
+**Backend** · Python · FastAPI · PHP 8 · PostgreSQL · Alembic · SQL Server · JWT  
 **Frontend** · TypeScript · Next.js 16 · React 19 · Astro 4 · Vue 3 · shadcn/ui · Tailwind v4 · Apollo Client  
 **AI/LLM** · MCP Protocol · Claude Code · Goose · OpenAI Agents API · V0 · Google Stitch · A2A  
 **ERP** · Odoo 19 Enterprise (módulos nativos + integración externa) · Softland/SQL Server  
