@@ -32,7 +32,7 @@ Sistema completo de bolsa de empleo institucional construido de cero. Arquitectu
 ### MCP Servers para Odoo — CPIC
 *En producción*
 
-Servidor MCP standalone (`cpic-mcp-server`) que conecta LLMs con Odoo 19 Enterprise via JSON-RPC: 17 tools para auth, proyectos, tareas, timesheet y `ai_execute_agent` — permite que Claude invoque los AI agents nativos de Odoo 19.
+Servidor MCP standalone (`cpic-mcp-server`) que conecta LLMs con Odoo 19 Enterprise via JSON-RPC: 6 tools para auth, proyectos, tareas y `ai_execute_agent` — permite que Claude invoque los AI agents nativos de Odoo 19. Compatible con Claude Desktop, Claude Code y Codex.
 
 ### FastAPI CPIC — API institucional
 *En producción · mcp.cpic.or.cr*
