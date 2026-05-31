@@ -95,14 +95,14 @@ MCP server: definir tools → implementar transport → Claude Desktop los descu
 
 ## Stack
 
-**Backend** · Python · FastAPI · PHP 8 · PostgreSQL · Alembic · SQL Server · JWT  
+**Backend** · Python · FastAPI · PHP 8 · PostgreSQL · Alembic · SQL Server · Redis · Sentry APM  
 **Frontend** · TypeScript · Next.js 16 · React 19 · Astro 4 · Vue 3 · shadcn/ui · Tailwind v4 · Apollo Client  
-**AI/LLM** · MCP Protocol · Claude Code · Goose · OpenAI Agents API · V0 · Google Stitch · A2A  
-**ERP** · Odoo 19 Enterprise (módulos nativos + integración externa) · Softland/SQL Server  
+**AI/LLM** · MCP Protocol · Claude Code · V0 · Google Stitch  
+**ERP** · Odoo 19 Enterprise · Softland/SQL Server  
 **DevOps** · Docker · Nginx · DigitalOcean · GitHub Actions · Blue-Green Deployment  
 **Auth** · Azure AD · OAuth2 · PKCE (RFC 7636) · JWT · Zero Trust · Cloudflare  
 **Seguridad** · ISO 27001 · OWASP Top 10 · CIS Docker Benchmark · fail2ban · Trivy · Ley 8968 CR  
-**Protocolos** · MCP 2025-06-18 · GraphQL · JSON-RPC · WebSocket · RFC 9457
+**Protocolos** · MCP 2025-06-18 · GraphQL · WPGraphQL · JSON-RPC · WebSocket · RFC 9457
 
 ---
 
