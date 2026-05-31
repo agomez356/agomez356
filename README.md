@@ -60,20 +60,11 @@ Pipeline centralizado con reusable workflow: toda la lógica de deploy vive en u
 - **Healthcheck**: workflow cada 5 minutos con alertas a Telegram — detecta DOWN y RECOVERY con state tracking via GitHub Variables
 - **Rollback documentado**: objetivo < 2 minutos para cualquier tipo de repo
 
-### Chat AI para WordPress
-*Investigación · PHP*
+### Proyectos personales
 
-Plugin WordPress con integración completa a OpenAI Agents API. Model routing inteligente (GPT-5-Nano/Mini/Full según complejidad del mensaje), WebSocket proxy con ReactPHP + Ratchet para OpenAI Realtime API, almacenamiento híbrido DB + transient cache.
+**Miweb** — Blog técnico construido con Astro 4 + Vue 3 + MDX + KaTeX. Flujo: diseño con Google Stitch MCP → implementación con Claude Code. [agomez356.github.io/Miweb](https://agomez356.github.io/Miweb)
 
-### Miweb — Portfolio / Blog
-*[agomez356.github.io/Miweb](https://agomez356.github.io/Miweb)*
-
-Blog técnico construido con Astro 4 + Vue 3 + MDX + KaTeX. Flujo: diseño con **Google Stitch MCP** → implementación con Claude Code. Artículos con ecuaciones LaTeX renderizadas.
-
-### Odoo para gestión agrícola
-*Proyecto independiente*
-
-Implementé y customicé Odoo para la administración operativa de una finca familiar.
+**Odoo — gestión agrícola** — Implementación y customización de Odoo para administración operativa de una finca familiar.
 
 ---
 
