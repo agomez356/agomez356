@@ -37,7 +37,7 @@ Servidor MCP standalone (`cpic-mcp-server`) que conecta LLMs con Odoo 19 Enterpr
 ### FastAPI CPIC — API institucional
 *En producción*
 
-API REST enterprise que bridgea el ERP legacy (SQL Server/Softland) con PostgreSQL moderno y Odoo 19. Integración Azure AD, dual database con circuit breakers, RFC 9457, Sentry APM, multi-agent AI development system.
+API REST enterprise que bridgea el ERP legacy (SQL Server/Softland) con PostgreSQL moderno y Odoo 19. Integración Azure AD, dual database con circuit breakers, RFC 9457, Sentry APM.
 
 ### Auditoría de Seguridad — VPS Producción
 *Enero 2026 · 52/100 → 82/100 · $0 en tooling*
