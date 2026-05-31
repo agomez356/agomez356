@@ -19,7 +19,7 @@ La seguridad y la privacidad no son un paso final — son parte del diseño desd
 ## Proyectos con impacto
 
 ### Bolsa de Empleo Digital — CPIC
-*En producción · ~6,000 profesionales IT · 350 usuarios activos*
+*En producción · ~2,000 profesionales IT · 350 usuarios activos*
 
 Sistema completo de bolsa de empleo institucional construido de cero. Arquitectura multi-capa:
 
@@ -30,12 +30,9 @@ Sistema completo de bolsa de empleo institucional construido de cero. Arquitectu
 - **DevOps** — Docker multi-stage, Nginx, blue-green deployment en DigitalOcean, GitHub Actions CI/CD
 
 ### MCP Servers para Odoo — CPIC
-*3 módulos en producción · desplegados en mcp.cpic.or.cr*
+*En producción*
 
-Dos enfoques complementarios para conectar LLMs con Odoo 19 Enterprise:
-
-- **Módulos nativos** (`llm`, `llm_tool`, `llm_mcp_server`) — MCP server embebido dentro de Odoo. Decorator `@llm_tool` auto-genera JSON schemas desde type hints Python. Compatible con Claude Desktop, Cursor, Windsurf, VSCode Copilot
-- **Servidor externo** (`cpic-mcp-server`) — 17 tools sobre Odoo via JSON-RPC: auth, proyectos, tareas, timesheet y `ai_execute_agent` — permite que Claude invoque los AI agents nativos de Odoo 19
+Servidor MCP standalone (`cpic-mcp-server`) que conecta LLMs con Odoo 19 Enterprise via JSON-RPC: 17 tools para auth, proyectos, tareas, timesheet y `ai_execute_agent` — permite que Claude invoque los AI agents nativos de Odoo 19.
 
 ### FastAPI CPIC — API institucional
 *En producción · mcp.cpic.or.cr*
