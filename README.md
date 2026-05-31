@@ -88,7 +88,6 @@ Port de `apexive/odoo-llm` a Odoo 19.0: desarrollado localmente, validado en pro
 V0 → mock data MVP → Claude Code + Antigravity → integración backend → producción
 Google Stitch MCP → design system → Claude Code → implementación → deploy
 SDD: explore → propose → spec → design → tasks → apply → verify
-MCP server: definir tools → implementar transport → Claude Desktop los descubre
 ```
 
 ---
