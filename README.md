@@ -83,6 +83,21 @@ Port de `apexive/odoo-llm` a Odoo 19.0: desarrollado localmente, validado en pro
 
 ---
 
+## Mentoría técnica
+
+### Práctica profesional — CPIC (oct–nov 2025)
+
+Supervisé e integré a un practicante universitario en el equipo de desarrollo de CPIC durante 7 semanas. Trabajo directo en proyectos de producción, no en sandboxes.
+
+**34 tareas completadas** en dos períodos:
+
+- App móvil Flutter: autenticación Azure AD/MSAL completa, flujos híbridos (correo/cédula/ID), pantallas Rewards/Eventos/Educación Continua
+- Integración Odoo 19 + Flutter (demo funcional con XML-RPC/REST)
+- Investigación cloud: Azure CLI, Digital Ocean (doctl), Kubernetes (kubectl)
+- Metodología: workflow AI-first con Claude Code Pro, demos semanales al equipo, ciclos feedback → ajuste → entrega
+
+---
+
 ## Flujos de desarrollo AI-first
 
 ```
